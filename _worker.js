@@ -44,12 +44,12 @@ let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
 	'45102.cmliu.cloudns.org.cdn.cloudflare.net',
 ];
 let CMproxyIPs = [
-	'us.cmliu.cloudns.org.cdn.cloudflare.net:CF',//匹配节点名, 有HK就分配该ProxyIP域名
-	'hk.cmliu.cloudns.org.cdn.cloudflare.net:HK',//匹配节点名, 有HK就分配该ProxyIP域名
+        'hk.cmliu.cloudns.org.cdn.cloudflare.net:HK',//匹配节点名, 有HK就分配该ProxyIP域名
 	'tw.cmliu.cloudns.org.cdn.cloudflare.net:TW',//匹配节点名, 有HK就分配该ProxyIP域名
 	'sg.cmliu.cloudns.org.cdn.cloudflare.net:SG',//匹配节点名, 有HK就分配该ProxyIP域名
 	'jp.cmliu.cloudns.org.cdn.cloudflare.net:JP',//匹配节点名, 有HK就分配该ProxyIP域名
 	'us.cmliu.cloudns.org.cdn.cloudflare.net:US',//匹配节点名, 有HK就分配该ProxyIP域名
+	'us.cmliu.cloudns.org.cdn.cloudflare.net:CF',//匹配节点名, 有HK就分配该ProxyIP域名
 ]
 let socks5DataURL = '';//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/socks5Data'
 let BotToken ='';
