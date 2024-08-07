@@ -37,7 +37,7 @@ let subconfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/conf
 let noTLS = 'false'; //改为 true , 将不做域名判断 始终返回noTLS节点
 let link = '';
 let edgetunnel = 'ed';
-let RproxyIP = 'ture'; //false,ture
+let RproxyIP = 'true'; //false,ture
 let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
 	'us.1231.eu.org',
 	//'14061.cmliu.cloudns.org.cdn.cloudflare.net',
